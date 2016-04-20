@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{63933419-1b5f-4b27-b3f4-31c33158c0ea}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{d36aa77f-afb8-4214-831d-0b65765a0906}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{e48f9ab3-94ef-4ef6-b972-8249bf2e97cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C3D">
+      <UniqueIdentifier>{0a0347f9-d1ee-499a-8979-e2f6962707b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="comman">
+      <UniqueIdentifier>{5a7912d1-baf5-46c7-aea9-6268ede3c90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT">
+      <UniqueIdentifier>{19482133-0bda-4f69-8555-15d376a8974c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT\ControlView">
+      <UniqueIdentifier>{aded8c74-d711-4d24-944f-945e6ec5be13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_particleeditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ByteArray.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCQApplication.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCQApplication.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCQApplication.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCQGLView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCQGLWidget.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCQGLWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCQGLWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocosWidget.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CocosWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CocosWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FontChina.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Global.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StringUtil.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DCamera.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DLayer.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DMesh.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DNode.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DParticleSystem.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DSubMesh.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comman\texture.cpp">
+      <Filter>comman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DShape.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QT\BaseDockWidget.cpp">
+      <Filter>QT</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BaseDockWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BaseDockWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QT\particleeditor.cpp">
+      <Filter>QT</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_particleeditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_particleeditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QT\ModelView.cpp">
+      <Filter>QT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QT\ResourceView.cpp">
+      <Filter>QT</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ResourceView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ResourceView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QT\ControlView\BasePropertiesView.cpp">
+      <Filter>QT\ControlView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BasePropertiesView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BasePropertiesView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QT\ControlView\BlendFuncView.cpp">
+      <Filter>QT\ControlView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BlendFuncView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BlendFuncView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QT\ControlView\ColorView.cpp">
+      <Filter>QT\ControlView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ColorView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ColorView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QT\ControlView\ControlView.cpp">
+      <Filter>QT\ControlView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ControlView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ControlView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="particleeditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="particleeditor.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\CCQApplication.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\CCQGLWidget.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\CocosWidget.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\QT\BaseDockWidget.h">
+      <Filter>QT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\QT\particleeditor.h">
+      <Filter>QT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\QT\ResourceView.h">
+      <Filter>QT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\QT\ControlView\BasePropertiesView.h">
+      <Filter>QT\ControlView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\QT\ControlView\BlendFuncView.h">
+      <Filter>QT\ControlView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\QT\ControlView\ColorView.h">
+      <Filter>QT\ControlView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\QT\ControlView\ControlView.h">
+      <Filter>QT\ControlView</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_particleeditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ByteArray.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCQGLView.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FontChina.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StringUtil.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DCamera.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DLayer.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DMesh.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DNode.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DParticleSystem.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DSubMesh.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comman\texture.h">
+      <Filter>comman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DShape.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QT\ModelView.h">
+      <Filter>QT</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ParticleEditor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ParticleEditor.ico" />
+  </ItemGroup>
+</Project>

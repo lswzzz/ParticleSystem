@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>./Resources/add2.ico</file>
+    <file>./Resources/sub.ico</file>
+    <file>./Resources/hide.ico</file>
+    <file>./Resources/show.ico</file>
+    <file>./Resources/output.ico</file>
+    <file>./Resources/open.ico</file>
+    <file>./Resources/save_as.ico</file>
+    <file>./Resources/add.ico</file>
+  </qresource>
+</RCC>

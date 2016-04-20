@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ParticleEditorClass</class>
+ <widget class="QMainWindow" name="ParticleEditorClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1669</width>
+    <height>866</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ParticleEditor</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true"> background-color:rgba(191, 191, 191, 191)</string>
+   </property>
+   <widget class="QDockWidget" name="SceneWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>960</width>
+      <height>662</height>
+     </rect>
+    </property>
+    <property name="features">
+     <set>QDockWidget::DockWidgetFloatable|QDockWidget::DockWidgetMovable</set>
+    </property>
+    <property name="windowTitle">
+     <string>编辑器视图</string>
+    </property>
+    <widget class="QWidget" name="SceneWidgetContents"/>
+   </widget>
+   <widget class="QDockWidget" name="LogWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>665</y>
+      <width>960</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>960</width>
+      <height>140</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color:rgba(191, 191, 191, 191)</string>
+    </property>
+    <property name="features">
+     <set>QDockWidget::DockWidgetFloatable|QDockWidget::DockWidgetMovable</set>
+    </property>
+    <property name="allowedAreas">
+     <set>Qt::BottomDockWidgetArea</set>
+    </property>
+    <property name="windowTitle">
+     <string>输出视图</string>
+    </property>
+    <widget class="QWidget" name="LogWidgetContents">
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>960</width>
+        <height>120</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1669</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionOpenConfig"/>
+    <addaction name="actionSaveConfig"/>
+    <addaction name="actionSave_as"/>
+    <addaction name="actionOutput"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>编辑</string>
+    </property>
+    <addaction name="actionAdd_Res"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>视图</string>
+    </property>
+    <addaction name="actionControlView"/>
+    <addaction name="actionResView"/>
+    <addaction name="actionModelView"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAddRes">
+   <property name="icon">
+    <iconset resource="particleeditor.qrc">
+     <normaloff>:/icon/Resources/add.ico</normaloff>:/icon/Resources/add.ico</iconset>
+   </property>
+   <property name="text">
+    <string>添加资源</string>
+   </property>
+  </action>
+  <action name="actionAddRes_2">
+   <property name="text">
+    <string>add_Res</string>
+   </property>
+  </action>
+  <action name="actionAdd_Res">
+   <property name="icon">
+    <iconset resource="particleeditor.qrc">
+     <normaloff>:/icon/Resources/add.ico</normaloff>:/icon/Resources/add.ico</iconset>
+   </property>
+   <property name="text">
+    <string>添加资源</string>
+   </property>
+  </action>
+  <action name="actionOpenConfig">
+   <property name="icon">
+    <iconset resource="particleeditor.qrc">
+     <normaloff>:/icon/Resources/open.ico</normaloff>:/icon/Resources/open.ico</iconset>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="actionSaveConfig">
+   <property name="icon">
+    <iconset resource="particleeditor.qrc">
+     <normaloff>:/icon/Resources/save_as.ico</normaloff>:/icon/Resources/save_as.ico</iconset>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="icon">
+    <iconset resource="particleeditor.qrc">
+     <normaloff>:/icon/Resources/save_as.ico</normaloff>:/icon/Resources/save_as.ico</iconset>
+   </property>
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="actionOutput">
+   <property name="icon">
+    <iconset resource="particleeditor.qrc">
+     <normaloff>:/icon/Resources/output.ico</normaloff>:/icon/Resources/output.ico</iconset>
+   </property>
+   <property name="text">
+    <string>导出</string>
+   </property>
+  </action>
+  <action name="actionControlView">
+   <property name="icon">
+    <iconset resource="particleeditor.qrc">
+     <normaloff>:/icon/Resources/show.ico</normaloff>:/icon/Resources/show.ico</iconset>
+   </property>
+   <property name="text">
+    <string>控制器视图</string>
+   </property>
+  </action>
+  <action name="actionResView">
+   <property name="icon">
+    <iconset resource="particleeditor.qrc">
+     <normaloff>:/icon/Resources/show.ico</normaloff>:/icon/Resources/show.ico</iconset>
+   </property>
+   <property name="text">
+    <string>资源视图</string>
+   </property>
+  </action>
+  <action name="actionModelView">
+   <property name="icon">
+    <iconset resource="particleeditor.qrc">
+     <normaloff>:/icon/Resources/show.ico</normaloff>:/icon/Resources/show.ico</iconset>
+   </property>
+   <property name="text">
+    <string>模型视图</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="particleeditor.qrc"/>
+ </resources>
+ <connections/>
+</ui>
